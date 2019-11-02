@@ -12,7 +12,8 @@ operators = {
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.floordiv,
-	'%': operator.mod
+	'%': operator.mod,
+	'^': operator.pow,
 }
 
 def calculate(arg):
